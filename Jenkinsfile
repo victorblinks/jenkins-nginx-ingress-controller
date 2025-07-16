@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        CLUSTER_NAME = "prod"
+        CLUSTER_NAME = "staging"
         AWS_REGION = "us-east-2"
         HELM_CHART_VERSION = "4.10.1"
     }
